@@ -1,0 +1,202 @@
+body{
+    margin: 0px;
+    
+    background-image: url('../img/WhatsApp\ Image\ 2024-04-09\ at\ 23.27.53.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(235, 173, 209);
+}
+
+nav ul li{
+    display:inline;
+    justify-content: flex-end;
+    padding: 10px;
+    font-size: 120%;
+    
+}
+nav ul{
+    float: right;
+    margin-right: 10%;
+}
+a{
+    text-decoration: none;
+    color: black;
+   
+}
+
+
+.imgHeader{
+  width: 70px;
+  
+}
+
+
+#topo{
+    height: 60px;
+    margin-left: 5%;
+}
+
+section{
+    display: flex;
+    margin-top: 3%;
+    margin-left: 10%;
+    height: 550px;
+    width: 1010px;
+    
+    margin-left: 15%;
+    
+
+    
+}
+  
+#esquerdo{
+    padding-left: 2%;
+    background-color: rgb(233, 204, 229);
+}    
+
+
+.imgCassi{ 
+     width: 300px;
+     height: 550px;
+}
+
+.indexTexto{
+    font-size: 30px;
+    padding-top: 8%;
+    color:  rgb(212, 61, 149);
+}
+.subtitulo{
+    font-size: 20px;
+}
+
+
+#meio{
+    margin-top: 3%;
+    margin-left: 20%;
+}
+
+form{
+    margin-top: 3%;
+    margin-left: 20%;
+    width: 75%;
+    height: auto;
+}
+
+input[type=name], input[type=email]
+{
+    border-radius: 5px;
+    border-style: double;
+    border-color: rgb(235, 173, 209);
+    width: 70%;
+    height: 30px;
+    margin-bottom: 3%;  
+    font-size: 16px;
+}
+
+input[type=submit]
+{
+    border: none;
+    background-color: rgb(235, 173, 209) ;
+    border-radius: 5px;
+    color: white;
+    margin-right: 29%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: right;
+    
+}
+input[type=submit]:hover{
+    background-color: rgb(173, 95, 236);
+cursor: pointer;
+}
+
+textarea{
+    border-radius: 5px;
+    border-style: double;
+    border-color: rgb(235, 173, 209);
+    width: 70%;
+    font-size: 16px;
+    height: 110px;
+    margin-bottom: 3%; 
+}
+
+section{
+    display: flex;
+    
+}
+
+#primeiro{
+    width: 22%;
+    height: 50%;
+    margin-right: 10%;
+    box-shadow: 6px 5px 1px 0 rgb(233, 181, 224);
+    text-align: justify;
+    padding: 10px;
+    border-style:solid;
+    border-color:rgb(167, 21, 142) ;
+}
+
+#segundo{
+    width: 23%;
+    height: 50%;
+    margin-left: 5%;
+    box-shadow: 6px 5px 1px 0 rgb(233, 181, 224);
+    text-align: justify;
+    padding: 10px;
+    border-style:solid;
+    border-color:rgb(167, 21, 142) ;
+}
+
+.PotTexto{
+    color: rgb(235, 173, 209);
+    font-size: 25px;
+}
+.TextCaixa{
+    color:rgb(80, 78, 78);
+    font-size: 20px;
+}
+.ImagPort{
+    width: 50px;
+    display: flex;
+    padding-left: 50px;
+    padding-top: 5%;
+}
+
+.button{ 
+    background-color: rgb(235, 173, 209) ;
+  
+    color: white;
+    border-style: none;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-top: 10%;
+    margin-left: 25px;
+}
+.button:hover{
+    background-color: rgb(173, 95, 236);
+    cursor: pointer;
+}
+
+
+.link:hover{
+    background-color: rgba(201, 195, 195, 0.432);
+    padding-top: 23px;
+    padding-bottom: 23px;
+    
+}
+
+.ImagPorti{
+    width: 70px;
+    display: flex;
+    margin-left: 75px;
+    padding-top: 5%;
+}
+
